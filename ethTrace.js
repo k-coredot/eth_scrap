@@ -11,8 +11,8 @@ const rpcCallMaxCount = 6;
 var rpcCallCount = 0;
 
 //var curBlockNum = 46147; 첫 트랜잭션 블록
-var curBlockNum = 150000;
-const lastBlockNum = 199999;
+var curBlockNum  = 150000;
+var lastBlockNum = 199999;
 
 var sTmrBlock = setInterval(() => {
     if (rpcCallCount < rpcCallMaxCount) {
